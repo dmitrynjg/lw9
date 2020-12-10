@@ -1,0 +1,33 @@
+.close-btn {
+  position: relative;
+  margin-left: 30px;
+  margin-top: 10px;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.close-btn span {
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background: #1a1a1a;
+}
+
+.close-btn span:nth-child(1) {
+  margin-top: 8px;
+}
+.close-btn span:nth-child(2) {
+  margin-top: 16px;
+}
+.drawer-open .close-btn {
+  margin-top: 20px;
+}
+.drawer-open .close-btn span {
+  margin-top: 0;
+}
+.drawer-open .close-btn span:nth-child(1) {
+  transform: rotate(45deg);
+}
+.drawer-open .close-btn span {
+  transform: rotate(-45deg);
+}
